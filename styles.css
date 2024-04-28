@@ -27,7 +27,7 @@ main {
   margin-right: auto;
   margin-left: auto;
   padding: 1.2rem;
-  border-radius: 1.6rem;
+  border-radius: 1.1rem;
 
   background-color: var(--white);
   display: flex;
@@ -35,7 +35,7 @@ main {
 }
 
 .container {
-  width: 300px;
+  width: 400px;
 }
 
 @media screen and (min-width: 801px) {
@@ -58,10 +58,12 @@ main {
 
 img {
   width: 100%;
-  border-radius: 1rem;
+  border-radius: 0.6rem;
 }
 
 .boldtext {
+  margin: 2rem 1rem 0 1rem;
+  font-size: 1.2rem;
   text-align: center;
   font-family: "Outfit";
   font-weight: 700;
@@ -70,7 +72,9 @@ img {
 .normaltext {
   font-family: "Outfit";
   font-weight: 400;
+  font-size: 0.9rem;
   text-align: center;
+  color: var(--grayish-blue);
 }
 
 .attribution {
@@ -81,7 +85,6 @@ img {
   padding-top: 1em;
   font-family: "Outfit";
   text-align: center;
-
   width: 100%;
   height: 2em;
 }
